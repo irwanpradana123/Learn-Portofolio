@@ -1,117 +1,159 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Irwan Pradana</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Portfolio</a>
-              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <style>
+    section {
+      min-height: 420px;
+    }
+  </style>
+</head>
+
+<body class="mt-5">
+
+  <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Irwan Pradana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link disabled" aria-disabled="true">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="p-5 mb-4 bg-secondary rounded-3 ">
+    <div class="container-fluid py-5 text-center">
+      <img src="imageku.jpg" width="13%" class="rounded-circle img-thumbnail">
+      <h1 class="display-5 fw-bold">Irwan Pradana</h1>
+      <p class="col-md-15 fs-4">Selamat datang di Website irwan pradana moktar kadha</p>
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="text-center">About</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5 text-center">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quasi nihil minus! Nesciunt quis laboriosam
+            dolore perspiciatis cum quas sed blanditiis hic, fugit obcaecati incidunt dicta non itaque autem assumenda,
+            delectus eos placeat magnam explicabo earum nobis nihil dolorem? Dolorem exercitationem laudantium
+            voluptates
+            commodi asperiores temporibus aliquam ipsa adipisci nisi laboriosam beatae, iusto tempora reprehenderit
+            facilis accusamus aspernatur maxime! Itaque maxime mollitia hic suscipit officiis quibusdam voluptates fuga?
+            Cum maiores rem corrupti debitis iusto eius repellat incidunt ex suscipit ut atque minus molestiae quas enim
+            placeat sapiente ducimus ipsam non dolor magni dolorum, nam nihil repudiandae! Laboriosam, quisquam quos.
+            Aliquid, voluptates.</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eaque aut, laborum mollitia
+            repellendus
+            vero beatae corrupti quod neque eveniet sint, voluptate dicta, omnis culpa earum blanditiis quae! Laudantium
+            exercitationem quo, beatae excepturi corrupti facilis magnam quisquam. Delectus, ut quibusdam. Fugit, optio
+            cupiditate alias earum mollitia repellat quo dolore accusamus officia est saepe enim vero iure temporibus
+            numquam nam cum maxime iste deleniti officiis tempore sit iusto pariatur beatae! Provident, tempora.
+            Molestiae
+            tempora laborum voluptatum totam impedit? Magni, accusamus? Doloremque consectetur veniam provident
+            similique
+            ut error quas deleniti nam</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portofolio" class="portofolio bg-light">
+    <div class="container">
+      <div class="row mb-4 pt-4">
+        <div class="col text-center">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <img src="img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
         </div>
-      </nav>
-
-      <div class="p-5 mb-4 bg-secondary rounded-3 ">
-        <div class="container-fluid py-5 text-center">
-            <img src="imageku.jpg" width="200" class="rounded-circle">
-          <h1 class="display-5 fw-bold">Irwan Pradana</h1>
-          <p class="col-md-15 fs-4">Selamat datang di Website irwan pradana moktar kadha</p>
+        <div class="col-md">
+          <div class="card">
+            <img src="img2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <img src="img3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1 class="text-center">About</h1>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <img src="img4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quasi nihil minus! Nesciunt quis laboriosam dolore perspiciatis cum quas sed blanditiis hic, fugit obcaecati incidunt dicta non itaque autem assumenda, delectus eos placeat magnam explicabo earum nobis nihil dolorem? Dolorem exercitationem laudantium voluptates commodi asperiores temporibus aliquam ipsa adipisci nisi laboriosam beatae, iusto tempora reprehenderit facilis accusamus aspernatur maxime! Itaque maxime mollitia hic suscipit officiis quibusdam voluptates fuga? Cum maiores rem corrupti debitis iusto eius repellat incidunt ex suscipit ut atque minus molestiae quas enim placeat sapiente ducimus ipsam non dolor magni dolorum, nam nihil repudiandae! Laboriosam, quisquam quos. Aliquid, voluptates.</p>
+        <div class="col-md">
+          <div class="card">
+            <img src="img5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eaque aut, laborum mollitia repellendus vero beatae corrupti quod neque eveniet sint, voluptate dicta, omnis culpa earum blanditiis quae! Laudantium exercitationem quo, beatae excepturi corrupti facilis magnam quisquam. Delectus, ut quibusdam. Fugit, optio cupiditate alias earum mollitia repellat quo dolore accusamus officia est saepe enim vero iure temporibus numquam nam cum maxime iste deleniti officiis tempore sit iusto pariatur beatae! Provident, tempora. Molestiae tempora laborum voluptatum totam impedit? Magni, accusamus? Doloremque consectetur veniam provident similique ut error quas deleniti nam, iure numquam repudiandae qui laborum assumenda unde! Cumque sint eos nihil odit ex voluptate fugiat quia aperiam tenetur, soluta minima explicabo alias nulla, velit ipsa illum vel culpa labore. Facere facilis odit adipisci non dolorem maiores quo harum voluptatibus quibusdam tempore?</p>
-            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h1>Portfolio</h1>
+        <div class="col">
+          <div class="card-md">
+            <img src="img6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md">
-                <div class="card">
-                    <img src="img1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img src="img2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img src="img3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md">
-                <div class="card">
-                    <img src="img4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <img src="img5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-                <div class="card-md">
-                    <img src="img6.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
